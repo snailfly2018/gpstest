@@ -52,9 +52,9 @@ public class GpsSkyFragment extends Fragment implements GpsTestListener {
         mSkyView = v.findViewById(R.id.sky_view);
 
         // C/N0 Legend lines
-        mLegendCn0LeftLine = v.findViewById(R.id.sky_legend_cn0_left_line);
+        mLegendCn0LeftLine = v.findViewById(R.id.sky_legend_cn0_left_line4);
         mLegendCn0CenterLine = v.findViewById(R.id.sky_legend_cn0_center_line);
-        mLegendCn0RightLine = v.findViewById(R.id.sky_legend_cn0_right_line);
+        mLegendCn0RightLine = v.findViewById(R.id.sky_legend_cn0_right_line4);
 
         // C/N0 Legend text
         mLegendCn0Title = v.findViewById(R.id.sky_legend_cn0_title);
